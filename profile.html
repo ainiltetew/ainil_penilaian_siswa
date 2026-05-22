@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/include.js" defer></script>
+    <script type="text/javascript" src="js/sidebar.js" defer></script>
+  </head>
+  <body>
+    <my-header></my-header>
+    <main>
+      <div class="content-container">
+        <h2>Profil</h2>
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+            <img
+              src="https://bootdey.com/img/Content/avatar/avatar7.png"
+              alt="..."
+            />
+          </div>
+
+          <div class="col-lg-6 px-xl-10">
+            <ul class="list-unstyled mb-1-9">
+              <li class="mb-2 mb-xl-3 display-28">
+                <span class="display-26 text-secondary me-2 font-weight-600"
+                  >NIS:</span
+                >
+                001
+              </li>
+              <li class="mb-2 mb-xl-3 display-28">
+                <span class="display-26 text-secondary me-2 font-weight-600"
+                  >Nama:</span
+                >
+                Otto
+              </li>
+              <li class="mb-2 mb-xl-3 display-28">
+                <span class="display-26 text-secondary me-2 font-weight-600"
+                  >Jenis Kelamin:</span
+                >
+                Lak-laki
+              </li>
+              <li class="mb-2 mb-xl-3 display-28">
+                <span class="display-26 text-secondary me-2 font-weight-600"
+                  >Agama:</span
+                >
+                Islam
+              </li>
+              <li class="display-28">
+                <span class="display-26 text-secondary me-2 font-weight-600"
+                  >Asal:</span
+                >
+                Surabaya
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="content-container">
+        <h2>Penilaian</h2>
+        <select
+          class="form-select form-select-lg mb-3"
+          aria-label=".form-select-lg example"
+        >
+          <option selected>Periode</option>
+          <option value="1">2025 Semester 1</option>
+          <option value="2">2025 Semester 2</option>
+          <option value="3">2026 Semester 1</option>
+          <option value="3">2026 Semester 2</option>
+        </select>
+
+        <select
+          class="form-select form-select-sm mb-2"
+          aria-label=".form-select-sm example"
+        >
+          <option selected>Kelas</option>
+          <option value="1">1A</option>
+          <option value="2">1B</option>
+          <option value="3">1C</option>
+          <option value="1">2A</option>
+          <option value="2">2B</option>
+          <option value="3">2C</option>
+        </select>
+
+        <br />
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Kode Mapel</th>
+              <th scope="col">Mapel</th>
+              <th scope="col">Tugas</th>
+              <th scope="col">UTS</th>
+              <th scope="col">UAS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>001</td>
+              <td>IPA</td>
+              <td>80</td>
+              <td>90</td>
+              <td>100</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>002</td>
+              <td>IPS</td>
+              <td>80</td>
+              <td>90</td>
+              <td>100</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>003</td>
+              <td>SBK</td>
+              <td>80</td>
+              <td>90</td>
+              <td>100</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+    <my-footer> </my-footer>
+  </body>
+</html>
