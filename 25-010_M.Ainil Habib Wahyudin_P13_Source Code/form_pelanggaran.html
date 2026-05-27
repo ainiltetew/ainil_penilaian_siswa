@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guru</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/include.js" defer></script>
+    <script type="text/javascript" src="js/sidebar.js" defer></script>
+  </head>
+  <body>
+    <my-header></my-header>
+    <main>
+      <div class="content-container">
+        <h2>Form Guru</h2>
+        <form id="form-pelanggaran">
+          <div class="mb-3">
+            <label class="form-label"> Siswa </label>
+
+            <select class="form-select" id="nis" name="nis">
+              <option value="">Pilih Siswa</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label"> Jenis Pelanggaran </label>
+
+            <select class="form-select" id="id_jenis" name="id_jenis">
+              <option value="">Pilih Pelanggaran</option>
+            </select>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label"> Tanggal </label>
+
+            <input
+              type="date"
+              class="form-control"
+              id="tanggal"
+              name="tanggal"
+            />
+          </div>
+
+          <button
+            type="button"
+            class="btn btn-secondary"
+            onclick="window.location.href = 'pelanggaran.html'"
+          >
+            Kembali
+          </button>
+
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </main>
+    <my-footer> </my-footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="js/form_pelanggaran.js"></script>
+  </body>
+</html>

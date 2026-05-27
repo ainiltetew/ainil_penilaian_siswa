@@ -1,0 +1,17 @@
+[
+  {
+    "id_jenis": "P001",
+    "nama_pelanggaran": "Terlambat",
+    "poin": 5
+  },
+  {
+    "id_jenis": "P002",
+    "nama_pelanggaran": "Tidak memakai atribut",
+    "poin": 10
+  },
+  {
+    "id_jenis": "P003",
+    "nama_pelanggaran": "Bolos",
+    "poin": 25
+  }
+]

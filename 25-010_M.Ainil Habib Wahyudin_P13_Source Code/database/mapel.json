@@ -1,0 +1,12 @@
+[
+  {
+    "id_mapel": "M001",
+    "nama_mapel": "Matematika",
+    "nip": "G001"
+  },
+  {
+    "id_mapel": "M002",
+    "nama_mapel": "Bahasa Indonesia",
+    "nip": "G002"
+  }
+]

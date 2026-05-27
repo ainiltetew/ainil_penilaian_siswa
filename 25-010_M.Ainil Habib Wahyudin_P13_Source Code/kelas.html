@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kelas</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/include.js" defer></script>
+    <script type="text/javascript" src="js/sidebar.js" defer></script>
+  </head>
+  <body>
+    <my-header></my-header>
+    <main>
+      <div class="content-container">
+        <h2>Data Kelas</h2>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Kode Kelas</th>
+              <th scope="col">Nama Kelas</th>
+
+              <th scope="col">Act</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>001</td>
+              <td>1A</td>
+
+              <td>
+                <button class="btn btn-warning btn-sm">Edit</button
+                ><button class="btn btn-danger btn-sm">Hapus</button>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>002</td>
+              <td>2A</td>
+
+              <td>
+                <button class="btn btn-warning btn-sm">Edit</button
+                ><button class="btn btn-danger btn-sm">Hapus</button>
+              </td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>003</td>
+              <td>3A</td>
+
+              <td>
+                <button class="btn btn-warning btn-sm">Edit</button
+                ><button class="btn btn-danger btn-sm">Hapus</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <button
+          class="btn btn-primary"
+          onclick="window.location.href = 'form_guru.html'"
+        >
+          Tambah data
+        </button>
+      </div>
+    </main>
+    <my-footer> </my-footer>
+  </body>
+</html>
