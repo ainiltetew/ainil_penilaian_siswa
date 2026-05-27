@@ -1,0 +1,44 @@
+{
+    "login": {
+      "user": "",
+      "role": "",
+      "pass": ""
+    },
+  
+    "akun": [
+      {
+        "id": 1,
+        "user": "admin",
+        "role": "admin",
+        "pass": "1234"
+      },
+      {
+        "id": 2,
+        "user": "guru",
+        "role": "guru",
+        "pass": "1234"
+      },
+      {
+        "id": 3,
+        "user": "murid",
+        "role": "murid",
+        "pass": "1234"
+      }
+    ],
+    
+    "periode":[
+      { 
+        "id":"001",
+        "nama":"2026 semester 1",
+        "kelas":[]
+      }
+    ],
+      "kelas":[
+        {
+          "id":"001",
+          "nama":"1A",
+          "siswa":["001","002","003"],
+          "mapel":["001","002","003"]
+        }
+      ]
+  }
